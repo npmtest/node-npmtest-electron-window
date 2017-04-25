@@ -1,6 +1,6 @@
 # npmtest-electron-window
 
-#### test coverage for  [electron-window (v0.8.1)](https://github.com/jprichardson/electron-window)  [![npm package](https://img.shields.io/npm/v/npmtest-electron-window.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electron-window) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electron-window.svg)](https://travis-ci.org/npmtest/node-npmtest-electron-window)
+#### basic test coverage for  [electron-window (v0.8.1)](https://github.com/jprichardson/electron-window)  [![npm package](https://img.shields.io/npm/v/npmtest-electron-window.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electron-window) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electron-window.svg)](https://travis-ci.org/npmtest/node-npmtest-electron-window)
 
 #### Convenience methods for Electron windows.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-electron-window/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-electron-window/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-electron-window/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-electron-window/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-electron-window/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-electron-window/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-electron-window/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-electron-window/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-electron-window/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-electron-window/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-electron-window/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-electron-window/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
     "scripts": {
         "test": "standard && find ./lib -name *.test.js | xargs mocha"
     },
-    "version": "0.8.1"
+    "version": "0.8.1",
+    "bin": {}
 }
 ```
 
